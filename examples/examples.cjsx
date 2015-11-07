@@ -1,6 +1,5 @@
 React = require('react')
 {Container} = require 'react-responsive-grid'
-Headroom = require 'react-headroom'
 colorPicker = require 'color-pairs-picker'
 PageWidthMixin = require '../src/'
 throttle = require 'lodash.throttle'

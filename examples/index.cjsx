@@ -1,4 +1,5 @@
-React = require('react')
+React = require 'react'
+ReactDOM = require 'react-dom'
 Examples = require './examples'
 Typography = require 'typography'
 
@@ -32,4 +33,4 @@ typography = Typography(
 typography.injectStyles()
 {rhythm} = typography
 
-React.render(<Examples rhythm={rhythm} />, document.body)
+ReactDOM.render(<Examples rhythm={rhythm} />, document.getElementById('examples'))
